@@ -1,20 +1,37 @@
 
+a:link,visited {
+	background-color:none;
+	color:white;
+	padding:14px 100px;
+	text-align: center;
+	display: inline-block;
+}
+
+a:hover { 
+	background-color:lightblue; 
+}
+
+a {text-decoration: none;}
+
 body {
-	font-family: italic;
+	font-family: Rubik;
 	font-size: 20px;;
-	color: white;
-	background-color: #20B2AA;
+	color: black;
+	background-color: none;
+}
+
+.header {
+	border-image: 100px;
+	padding: 50px;
+	border-color: yellow;
+	text-align:center;
 }
 
 .topnav {
-	background-color: white;
-	padding: 15px;
-}
-
-.row {
-	background-color: white;
+	background-color: yellow;
+	padding: 1px;
+	text-align: center;
 }
 
 .leftcolumn
-
 {background-color: white;}
