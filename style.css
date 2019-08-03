@@ -4,21 +4,27 @@ a:link,visited {
 	padding:14px 100px;
 	text-align: center;
 	display: inline-block;
+	text-decoration: none;
 }
 
-a:hover { 
-	background-color:lightblue; 
+a:hover {
+	background-color:lightblue;
 }
-
-a {text-decoration: none;}
 
 body {
 	font-family: Rubik;
 	font-size: 20px;;
 	color: black;
 	background-color: none;
+	text-aign: center;
 }
 
+.qing-image {
+	background-image: url("https://i.imgur.com/geDee5T.jpg");
+	background-size:cover;
+	height:40em;
+	position:relative;
+}
 .header {
 	border-image: 100px;
 	padding: 10px;
@@ -27,19 +33,18 @@ body {
 	margin:auto;
 }
 
-@import url('http://fonts.googleapis.com/css?family=Signika');
-
-.topnav {
+.nav {
 	background-color: yellow;
 	text-align: center;
 }
 
 .row {
-  max-width: 40em;
-  margin:auto;
+	max-width: 50em;
+	margin: auto;
+	padding: 1em;
 }
 
-.mainpage {
+.article {
 	background-color: white;
 	font-family:Signika;
 	font-size: 1em;
@@ -47,9 +52,17 @@ body {
 	margin:1em;
 }
 
+.like-button {
+	background-color: lightseagreen;
+}
+
 .footer {
+	position: absolute;
+	bottom:0;
 	padding: 0.5em;
-  text-align: center;
-  background: lightblue;
-  font-size:0.5em;
+	width: 100%;
+	text-align: center;
+    background: lightblue;
+	font-size:1em;
+	color: white;
 }
