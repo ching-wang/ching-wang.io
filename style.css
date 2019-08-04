@@ -17,12 +17,21 @@ body {
 	color: black;
 	background-color: none;
 	text-aign: center;
+	padding-bottom: 10em;
 }
 
+h1,h2 {
+	color: white;
+	font-family: 'Didact Gothic', sans-serif;
+}
+
+h1 {
+	font-size: 3em;
+	font-family: 'Fjalla One', sans-serif;
+}
 .qing-image {
-	background-image: url("https://i.imgur.com/geDee5T.jpg");
-	background-size:cover;
-	height:40em;
+	background-image: url("https://i.imgur.com/3oKlDex.jpg");
+	background-size:100%;
 	position:relative;
 }
 .header {
@@ -57,7 +66,8 @@ body {
 }
 
 .footer {
-	position: absolute;
+	position: fixed;
+	left:0;
 	bottom:0;
 	padding: 0.5em;
 	width: 100%;
@@ -65,4 +75,10 @@ body {
     background: lightblue;
 	font-size:1em;
 	color: white;
+}
+
+@media (max-width: 500px;) {
+	h1 {
+		font-size:50px;
+	}
 }
