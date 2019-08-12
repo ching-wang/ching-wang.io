@@ -11,13 +11,14 @@ a:hover {
 	background-color:lightblue;
 }
 
+
 body {
 	font-family: Rubik;
 	font-size: 20px;;
 	color: black;
 	background-color: none;
 	text-aign: center;
-	padding-bottom: 10em;
+	/*padding-bottom: 10em;*/
 }
 
 h1,h2 {
@@ -31,8 +32,9 @@ h1 {
 }
 .qing-image {
 	background-image: url("https://i.imgur.com/3oKlDex.jpg");
-	background-size:100%;
+	background-size: cover;
 	position:relative;
+	background-repeat: no-repeat;
 }
 .header {
 	border-image: 100px;
@@ -66,10 +68,9 @@ h1 {
 }
 
 .footer {
-	position: fixed;
 	left:0;
 	bottom:0;
-	padding: 0.5em;
+	padding: 2em;
 	width: 100%;
 	text-align: center;
     background: lightblue;
