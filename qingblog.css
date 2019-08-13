@@ -1,7 +1,7 @@
 a:link,visited {
 	background-color:none;
 	color:white;
-	padding:14px 100px;
+	padding:14px 80px;
 	text-align: center;
 	display: inline-block;
 	text-decoration: none;
@@ -37,8 +37,8 @@ h1 {
 	background-repeat: no-repeat;
 }
 .header {
-	border-image: 100px;
-	padding: 10px;
+	border-image: 62em;
+	padding: 0.65em;
 	border-color: yellow;
 	text-align:center;
 	margin:auto;
