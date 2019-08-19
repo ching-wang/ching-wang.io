@@ -11,7 +11,6 @@ a:hover {
 	background-color:lightblue;
 }
 
-
 body {
 	font-family: Rubik;
 	font-size: 20px;;
@@ -78,8 +77,26 @@ h1 {
 	color: dodgerblue;
 }
 
-@media (max-width: 500px;) {
+@media (max-width: 500px) {
+	p, .article {
+		margin: 0;
+	}
 	h1 {
-		font-size:50px;
+		font-size:35px;
+	}
+
+	h2 {
+		font-size: 15px;
+	}
+	.footer {
+		padding: .5em;
+	}
+
+	a:link  {
+		padding:10px 35px;
+		text-align: center;
+		display: inline-block;
+		text-decoration: none;
+		font-size: 20px;
 	}
 }
