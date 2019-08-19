@@ -1,6 +1,6 @@
 a:link,visited {
 	background-color:none;
-	color:white;
+	color: darkblue;
 	padding:14px 80px;
 	text-align: center;
 	display: inline-block;
@@ -33,9 +33,10 @@ h1 {
 .qing-image {
 	background-image: url("https://i.imgur.com/3oKlDex.jpg");
 	background-size: cover;
-	position:relative;
+	position: relative;
 	background-repeat: no-repeat;
 }
+
 .header {
 	border-image: 62em;
 	padding: 0.65em;
@@ -45,7 +46,7 @@ h1 {
 }
 
 .nav {
-	background-color: yellow;
+	background-color: rgba(255,255,0,0.8);
 	text-align: center;
 }
 
@@ -71,11 +72,10 @@ h1 {
 	left:0;
 	bottom:0;
 	padding: 2em;
-	width: 100%;
 	text-align: center;
     background: lightblue;
 	font-size:1em;
-	color: white;
+	color: dodgerblue;
 }
 
 @media (max-width: 500px;) {
