@@ -11,24 +11,27 @@ a:hover {
 	background-color:lightblue;
 }
 
+
 body {
 	font-family: Rubik;
 	font-size: 20px;;
 	color: black;
 	background-color: none;
 	text-aign: center;
-	/*padding-bottom: 10em;*/
+	margin: 0 auto;
 }
 
 h1,h2 {
 	color: white;
 	font-family: 'Didact Gothic', sans-serif;
+	text-align: center;
 }
 
 h1 {
 	font-size: 3em;
 	font-family: 'Fjalla One', sans-serif;
 }
+
 .qing-image {
 	background-image: url("https://i.imgur.com/3oKlDex.jpg");
 	background-size: cover;
@@ -36,18 +39,19 @@ h1 {
 	background-repeat: no-repeat;
 }
 
+.nav {
+	background-color: rgba(255,255,0,0.8);
+	text-align: center;
+}
+
 .header {
 	border-image: 62em;
 	padding: 0.65em;
 	border-color: yellow;
 	text-align:center;
-	margin:auto;
+	margin: auto;
 }
 
-.nav {
-	background-color: rgba(255,255,0,0.8);
-	text-align: center;
-}
 
 .row {
 	max-width: 50em;
@@ -57,7 +61,7 @@ h1 {
 
 .article {
 	background-color: white;
-	font-family:Signika;
+	font-family: Signika;
 	font-size: 1em;
 	padding:1em;
 	margin:1em;
@@ -72,7 +76,7 @@ h1 {
 	bottom:0;
 	padding: 2em;
 	text-align: center;
-    background: lightblue;
+	background: lightblue;
 	font-size:1em;
 	color: dodgerblue;
 }
