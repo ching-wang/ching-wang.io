@@ -63,11 +63,16 @@ h1 {
 }
 
 .article {
-	background-color: white;
+	background-color: snow;
 	font-family: Signika;
 	font-size: 1em;
 	padding:1em;
 	margin:1em;
+}
+
+.night-mode .article {
+	background: black;
+	color: snow;
 }
 
 .like-button {
