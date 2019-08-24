@@ -39,6 +39,10 @@ h1 {
 	background-repeat: no-repeat;
 }
 
+.night-mode .qing-image {
+	background: #000;
+}
+
 .nav {
 	background-color: rgba(255,255,0,0.8);
 	text-align: center;
@@ -51,7 +55,6 @@ h1 {
 	text-align:center;
 	margin: auto;
 }
-
 
 .row {
 	max-width: 50em;
@@ -81,6 +84,21 @@ h1 {
 	color: dodgerblue;
 }
 
+.light-switch {
+	font-size: 1.5em;
+	display: block;
+	position: fixed;
+	right: 0;
+	width: 2em;
+	height: 2em;
+}
+
+@media (min-width: 501px) {
+	.light-switch {
+		top: 0;
+	}
+}
+
 @media (max-width: 500px) {
 	p, .article {
 		margin: 0;
@@ -104,4 +122,10 @@ h1 {
 		text-decoration: none;
 		font-size: 20px;
 	}
+
+	.light-switch {
+		font-size: 3em;
+		bottom: 0;
+	}
 }
+
