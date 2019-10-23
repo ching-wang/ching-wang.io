@@ -11,18 +11,17 @@ a:hover {
 	background-color:lightblue;
 }
 
-
 body {
 	font-family: Rubik;
 	font-size: 20px;;
 	color: black;
-	background-color: none;
+	background-color: #d7f8ff;
 	text-aign: center;
 	margin: 0 auto;
 }
 
-h1,h2 {
-	color: white;
+.header {
+	color: black;
 	font-family: 'Didact Gothic', sans-serif;
 	text-align: center;
 }
@@ -32,15 +31,21 @@ h1 {
 	font-family: 'Fjalla One', sans-serif;
 }
 
-.qing-image {
+/*.qing-image {
 	background-image: url("https://i.imgur.com/3oKlDex.jpg");
 	background-size: cover;
 	position: relative;
 	background-repeat: no-repeat;
+}*/
+
+.night-mode .main_background{
+	background: #000;
+	color: white;
+	color: white;
 }
 
-.night-mode .qing-image {
-	background: #000;
+.night-mode .h1 {
+	color: white;
 }
 
 .nav {
@@ -134,3 +139,7 @@ h1 {
 	}
 }
 
+.date_size {
+	font-size: 15px;
+	color : darkolivegreen;
+}
