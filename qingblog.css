@@ -44,7 +44,7 @@ h1 {
 	color: white;
 }
 
-.night-mode .h1 {
+.night-mode .header {
 	color: white;
 }
 
@@ -71,7 +71,7 @@ h1 {
 	background-color: snow;
 	font-family: Signika;
 	font-size: 1em;
-	padding:1em;
+	padding:4em;
 	margin:1em;
 }
 
