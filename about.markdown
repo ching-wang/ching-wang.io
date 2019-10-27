@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 Hello, my name is Qing (pronounced like "Ching"). I'm currently a student at
-Flatiron School learning software engineering. I'm on my way to be a full
+[Flatiron School](https://flatironschool.com/) learning software engineering in London. I'm on my way to be a full
 stack developer. 
 
 This site is mainly for my learning notes and also for sharing things I do.
