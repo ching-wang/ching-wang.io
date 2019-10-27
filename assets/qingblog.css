@@ -150,3 +150,12 @@ pre.highlight {
 	overflow-x: scroll;
 	padding: 1em;
 }
+
+.post-list-trailer {
+	font-size: 15px;
+	color: darkslategray;
+}
+
+.post-lead {
+	font-style: italic;
+}

@@ -3,7 +3,6 @@ layout: post
 title: Notes on Ruby method arguments
 date: 2019-10-27 12:26:16 +0100
 ---
-
 ### How to use method arguments probably in Ruby?
 
 Questions I had about Ruby methods and arguments that I had when I started to

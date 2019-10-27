@@ -6,7 +6,8 @@ layout: wrapper
   <section>
     <h3>
       <a href="{{ post.url }}">
-        {{ post.title }}
+        {{ post.title }}&nbsp;
+        <small class="post-list-trailer">{{ post.date | date: "%Y-%m-%d" }}</small>
       </a>
     </h3>
   </section>
