@@ -1,9 +1,12 @@
-a:link,visited {
-	background-color:none;
-	color: darkblue;
+.nav-link {
 	padding:14px 80px;
 	text-align: center;
 	display: inline-block;
+}
+
+a:link, a:visited {
+	background-color:none;
+	color: darkblue;
 	text-decoration: none;
 }
 
@@ -11,12 +14,14 @@ a:hover {
 	background-color:lightblue;
 }
 
+html, body {
+	font-size: 18px;
+}
+
 body {
 	font-family: Rubik;
-	font-size: 20px;;
 	color: black;
 	background-color: #d7f8ff;
-	text-aign: center;
 	margin: 0 auto;
 }
 
@@ -71,8 +76,9 @@ h1 {
 	background-color: snow;
 	font-family: Signika;
 	font-size: 1em;
-	padding:4em;
-	margin:1em;
+	padding: 2em 4em;
+	margin: 1em;
+	line-height: 1.5;
 }
 
 .night-mode .article {
@@ -139,7 +145,8 @@ h1 {
 	}
 }
 
-.date_size {
-	font-size: 15px;
-	color : darkolivegreen;
+pre.highlight {
+	font-size: 16px;
+	overflow-x: scroll;
+	padding: 1em;
 }

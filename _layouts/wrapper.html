@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <link rel="stylesheet" href="/assets/qingblog.css">
+    <link rel="stylesheet" href="/assets/monokai.css">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<div class="main_background">
+    <div class="header">
+    <h1>
+      <a href="/">
+        Qing's Blog
+      </a>
+    </h1>
+    <h2>Learning notes from my daily learning</h2>
+    </div>
+<div class="nav">
+    <a href="about-me/index.html" class="nav-link">About me</a>
+    <a href="my-blog/index.html" class="nav-link">My Blog</a>
+    <a href="my-notes/index.html" class="nav-link">My Notes</a>
+</div>
+
+<div class="row">
+    <div class="article">
+        <article>
+          {{ content }}
+        </article>
+    </div>
+</div>
+<div class ="footer">
+    <p> Want to get in touch? Drop me an email!</p>
+    <div class="footer-placeholder">
+        <input type="email" placeholder="Your email address">
+    </div>
+    <div class="footer-submit-button">
+        <input type="submit">
+    </div>
+    <button class="light-switch">
+        &#x1f4a1;
+    </button>
+</div>
+
+<script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+<script type="application/javascript" src="/assets/qingblog.js"></script>
+</body>
+</html>
