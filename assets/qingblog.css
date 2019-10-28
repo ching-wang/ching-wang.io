@@ -2,12 +2,12 @@
 	padding:14px 80px;
 	text-align: center;
 	display: inline-block;
+	text-decoration: none;
 }
 
 a:link, a:visited {
 	background-color:none;
 	color: darkblue;
-	text-decoration: none;
 }
 
 a:hover {
@@ -20,7 +20,6 @@ html, body {
 
 body {
 	font-family: Rubik;
-	color: black;
 	background-color: #d7f8ff;
 	margin: 0 auto;
 }
@@ -34,6 +33,10 @@ body {
 h1 {
 	font-size: 3em;
 	font-family: 'Fjalla One', sans-serif;
+}
+
+.site-title {
+	text-decoration: none;
 }
 
 /*.qing-image {
@@ -159,4 +162,8 @@ pre.highlight {
 
 .post-lead {
 	font-style: italic;
+}
+
+.highlight {
+	color: #ddd;
 }
