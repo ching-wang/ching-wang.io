@@ -24,7 +24,6 @@ local machine. Here are the steps:
 2. Go to your terminal and direct to where you would like to save the work.
 3. `git clone <SSH address>`
 
-
 ### Create a branch
 
 You can work on a new branch to avoid conflicts when you collaborate with
