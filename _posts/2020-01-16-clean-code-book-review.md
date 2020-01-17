@@ -89,6 +89,8 @@ Function or Methods are different from classes. They should have verb or verb
 phrase names like `updatePoemList` , `deletePoem`,
 `increaseLikesOnPoem`.
 
+##Examples:
+
 #### Bad code
 
 ```ruby
