@@ -51,8 +51,7 @@ It should tell you why it exists. what it does and how it is used. For example:
 const d // elapsed time in days
 ```
 
-This name reveals nothing. We should choose a name that specifies what is being
-measured and the unit of that measurement:
+> “This name reveals nothing. We should choose a name that specifies what is being measured and the unit of that measurement:”
 
 ```ruby
 const elapsedDays
@@ -64,10 +63,10 @@ We should avoid number-series naming, such as `a1`, `a2`, `mN`. These are the
 opposite of intentional naming. They provide no clue as to the author's
 intention.
 
-We should also avoid using "noise words". Imagine that you have a Stock class.
+We should also avoid using "noise words". Imagine that you have a `Stock` class.
 If you have another one called `StockInfo` or `StockData`, you have made the
 names different without making them mean anything different. In code, "Info" and
-"Data" are indistinct noise words like a, an, and the.
+"Data" are indistinct noise words like `a`, `an`, and `the`.
 
 > "Use Pronounceable Names. If you can't pronounce it, you can't discuss it
 > efficiently or properly.""
@@ -89,6 +88,34 @@ A class name should not be a verb.
 Function or Methods are different from classes. They should have verb or verb
 phrase names like `updatePoemList` , `deletePoem`,
 `increaseLikesOnPoem`.
+
+#### Bad code
+
+```ruby
+const d // elapsed time in days
+```
+
+#### Good code
+
+```ruby
+const elapsedDays
+```
+
+#### Number-series example:
+
+```
+ a1, a2, `mN`
+
+```
+
+#### Noise words
+
+```ruby
+ Stock
+ StockInfo
+ StockData
+
+```
 
 It's not easy to choose a good name and it requires good descriptive skills. I'm
 working on improving this. Now when I give a name to a function or class, I
