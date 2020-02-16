@@ -1,169 +1,159 @@
 .nav-link {
-	padding:14px 80px;
-	text-align: center;
-	display: inline-block;
-	text-decoration: none;
-}
-
-a:link, a:visited {
-	background-color:none;
-	color: darkblue;
-}
-
-a:hover {
-	background-color:lightblue;
-}
-
-html, body {
-	font-size: 18px;
-}
-
-body {
-	font-family: Rubik;
-	background-color: #d7f8ff;
-	margin: 0 auto;
-}
-
-.header {
-	color: black;
-	font-family: 'Didact Gothic', sans-serif;
-	text-align: center;
-}
-
-h1 {
-	font-size: 3em;
-	font-family: 'Fjalla One', sans-serif;
+  color: white;
+  padding: 14px 80px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
 }
 
 .site-title {
-	text-decoration: none;
+  text-decoration: none;
+  color: white;
 }
 
-/*.qing-image {
-	background-image: url("https://i.imgur.com/3oKlDex.jpg");
-	background-size: cover;
-	position: relative;
-	background-repeat: no-repeat;
-}*/
-
-.night-mode .main_background{
-	background: #000;
-	color: white;
-	color: white;
+html,
+body {
+  font-size: 18px;
+  color: honeydew;
 }
 
-.night-mode .header {
-	color: white;
+.title {
+  font-size: 3em;
+  font-family: "Fjalla One", sans-serif;
+  color: white;
 }
 
-.nav {
-	background-color: rgba(255,255,0,0.8);
-	text-align: center;
+body {
+  font-family: Rubik;
+  background-color: #131214;
+  margin: 0 auto;
 }
 
 .header {
-	border-image: 62em;
-	padding: 0.65em;
-	border-color: yellow;
-	text-align:center;
-	margin: auto;
+  color: white;
+  font-family: "Didact Gothic", sans-serif;
+  text-align: center;
+}
+
+.night-mode .main_background {
+  background: #000;
+  color: white;
+}
+
+.night-mode .header {
+  color: white;
+}
+
+.nav {
+  text-align: center;
+  color: honeydew;
+}
+
+.header {
+  border-image: 62em;
+  padding: 0.65em;
+  border-color: yellow;
+  text-align: center;
+  margin: auto;
 }
 
 .row {
-	max-width: 50em;
-	margin: auto;
-	padding: 1em;
+  max-width: 50em;
+  margin: auto;
+  padding: 1em;
 }
 
 .article {
-	background-color: snow;
-	font-family: Signika;
-	font-size: 1em;
-	padding: 2em 4em;
-	margin: 1em;
-	line-height: 1.5;
+  background-color: white;
+  font-family: Signika;
+  font-size: 1em;
+  padding: 2em 4em;
+  margin: 1em;
+  line-height: 1.5;
+  color: black;
 }
 
 .night-mode .article {
-	background: black;
-	color: snow;
+  background: black;
+  color: snow;
 }
 
 .like-button {
-	background-color: lightseagreen;
+  background-color: lightseagreen;
 }
 
 .footer {
-	left:0;
-	bottom:0;
-	padding: 2em;
-	text-align: center;
-	background: lightblue;
-	font-size:1em;
-	color: dodgerblue;
+  left: 0;
+  bottom: 0;
+  padding: 2em;
+  text-align: center;
+  background: white;
+  font-size: 1em;
+  color: dodgerblue;
 }
 
 .light-switch {
-	font-size: 1.5em;
-	display: block;
-	position: fixed;
-	right: 0;
-	width: 2em;
-	height: 2em;
+  font-size: 1.5em;
+  display: block;
+  position: fixed;
+  right: 0;
+  width: 2em;
+  height: 2em;
 }
 
 @media (min-width: 501px) {
-	.light-switch {
-		top: 0;
-	}
+  .light-switch {
+    top: 0;
+  }
 }
 
 @media (max-width: 500px) {
-	p, .article {
-		margin: 0;
-	}
-	h1 {
-		font-size:35px;
-		margin: 0 auto;
-	}
+  p,
+  .article {
+    margin: 0;
+  }
+  h1 {
+    font-size: 35px;
+    margin: 0 auto;
+  }
 
-	h2 {
-		font-size: 15px;
-	}
-	.footer {
-		padding: .5em;
-	}
+  h2 {
+    font-size: 15px;
+  }
+  .footer {
+    padding: 0.5em;
+  }
 
-	a:link  {
-		padding:10px 35px;
-		text-align: center;
-		display: inline-block;
-		text-decoration: none;
-		font-size: 20px;
-		color : black;
-	}
+  a:link {
+    padding: 10px 35px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+  }
 
-	.light-switch {
-		font-size: 3em;
-		bottom: 0;
-	}
+  .light-switch {
+    font-size: 3em;
+    bottom: 0;
+  }
 }
 
 pre.highlight {
-	font-size: 16px;
-	overflow-x: scroll;
-	padding: 1em;
+  font-size: 16px;
+  overflow-x: scroll;
+  padding: 1em;
 }
 
 .post-list-trailer {
-	font-size: 15px;
-	color: darkslategray;
+  font-size: 15px;
+  color: darkslategray;
 }
 
 .post-lead {
-	font-style: italic;
+  font-style: italic;
 }
 
 .highlight {
-	color: #ddd;
+  color: #ddd;
 }
