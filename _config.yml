@@ -52,7 +52,7 @@ texture:
   tagline: Full Stack Developer
   date_format: "%b %-d, %Y"
   style: black
-  showNav: false
+  showNav: true
   showPicker: true
 
   social_links:
