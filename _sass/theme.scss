@@ -3,7 +3,7 @@
 @import "begin";
 @import "syntax";
 
-$linkColor: #999;
+$linkColor: blue;
 $mobileW: 768px;
 $smallMobileW: 480px;
 $bigScreenW: 1600px;
@@ -158,7 +158,7 @@ header {
   transition: color 0.3s ease;
   margin: 0.1em 0;
   &:hover {
-    color: $gray;
+    color: #8332a8;
     border-bottom: 0;
   }
 }

@@ -4,6 +4,8 @@ title: How to Start a Static Blog with Jekyll
 date: 2019-12-30
 ---
 
+How to Start a Static Blog with Jekyll
+
 ## Why do I start my own blog
 
 - Easy to maintain
