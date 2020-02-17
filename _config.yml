@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -24,19 +24,40 @@ description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
+show_excerpts: true
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://ching-wang.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: QingChingwang
-github_username:  ching-wang
+# url: "https://ching-wang.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+# twitter_username: QingChingwang
+# github_username: ching-wang
+
+sass:
+  sass_dir: _sass
+  style: compressed
 
 # Build settings
-theme: minima
+
 plugins:
-  - jekyll-feed
-  - jekyll-time-to-read
+  - jekyll-seo-tag
+  # - jekyll-feed
+
 highlighter: rouge
 fenced_code_blocks: true
 
+remote_theme: thelehhman/texture
+theme: texture
+
+permalink: /posts/:title/
+texture:
+  title: Qing Wang
+  tagline: Full Stack Developer
+  date_format: "%b %-d, %Y"
+  style: black
+  showNav: false
+  showPicker: true
+
+  social_links:
+    github: ching-wang
+    linkedIn: ching-wang # format: locale/username
 
 # Exclude from processing.
 # The following items will not be processed, by default.
