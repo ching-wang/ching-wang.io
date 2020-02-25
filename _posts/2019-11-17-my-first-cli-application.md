@@ -4,7 +4,7 @@ title: My first CLI application using an API
 date: 2019-11-17
 ---
 
-This week is the third week of my Flatiron journey and last week we had a code
+This week is the third week of my [Flatiron](https://flatironschool.com/)  journey and last week we had a code
 challenge. Students who pass the code challenge get paired up with one of their
 peers and complete a CLI project together. Those who don't pass have to complete
 the project on their own.
