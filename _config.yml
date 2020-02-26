@@ -44,7 +44,7 @@ highlighter: rouge
 fenced_code_blocks: true
 
 remote_theme: thelehhman/texture
-theme: texture
+# theme: texture
 
 permalink: /posts/:title/
 texture:
