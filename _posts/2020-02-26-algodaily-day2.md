@@ -56,28 +56,27 @@ One of Algodaily's solution is **using Set**, according to [MND web docs]("https
 Here is the example from Algodaily, we transform our input arrays into sets, we can make use of the filter method, and apply it to one of the sets-- filtering out anything not in the other set.:
 
 ```javascript
-  function intersection(nums1, nums2) {
+function intersection(nums1, nums2) {
   const set = new Set(nums1);
   const fileredSet = new Set(nums2.filter(n => set.has(n)));
   return [...fileredSet];
-
-  }
+}
 
 //test
-  A = [1, 4, 3, 2, 5, 6];
-  B = [3, 2, 1, 5, 6, 7, 8, 10];
-  intersection(A, B);
-  //[3, 2, 1, 5, 6]
+A = [1, 4, 3, 2, 5, 6];
+B = [3, 2, 1, 5, 6, 7, 8, 10];
+intersection(A, B);
+//[3, 2, 1, 5, 6]
 ```
 
 Her is the other solution from Algodaily:
+
 ```javascript
 function intersection(nums1, nums2) {
-	let intersection = {};
- //collect unique intersections by doing an indexOf check and then returning it in array form:
-	for (const num of nums1) if (nums2.indexOf(num) !== -1) intersection[num] = 1;
+  let intersection = {};
+  //collect unique intersections by doing an indexOf check and then returning it in array form:
+  for (const num of nums1) if (nums2.indexOf(num) !== -1) intersection[num] = 1;
 
-	return Object.keys(intersection).map((val) => parseInt(val));
+  return Object.keys(intersection).map(val => parseInt(val));
 }
-
 ```
