@@ -1,7 +1,7 @@
 ---
 title: find VS find_by in Ruby on Rails
 layout: post
-date: 2020-03-01
+date: 2020-03-02
 ---
 
 _Notes to myself_
