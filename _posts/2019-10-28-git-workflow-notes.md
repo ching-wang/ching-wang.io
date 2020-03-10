@@ -9,10 +9,10 @@ exciting.
 
 Here are some notes on some of the things I've learnt so far.
 
-### Setup a new repository 
+### Setup a new repository
 
 Go to Github, click create, click "repositories", then click the green button
-on the top right corner. Give it a name and click "Create repository". 
+on the top right corner. Give it a name and click "Create repository".
 
 ### Git clone
 
@@ -50,7 +50,7 @@ git commit -m 'message'
 ```bash
 git push origin <your-branch-name>
 ```
-  
+
 ### Identify local and remote branches
 
 You can check which branch you are on with:
@@ -65,7 +65,7 @@ The one marked with a with `*` is the your current branch.
 
 ```bash
 $ git checkout <your-branch-name>
-````
+```
 
 ### Pull branches for latest changes
 
@@ -102,9 +102,28 @@ git log
 git reset
 ```
 
+### Unstage changes and go back to the last commit
+
+```
+bash
+git reset --hard
+```
+
+### Delete all branches
+
+```bash
+git branch | grep -v '^*' | xargs git branch -D
+```
+
+### Commit with a setup date
+
+```bash
+git commit --date="YYYY-MM-DD" -m 'message'
+```
+
 #### If you would like to read more, checkout these links
- 
- - [https://git-scm.com/book/en/v1/Getting-Started-Git-Basics](https://git-scm.com/book/en/v1/Getting-Started-Git-Basics)
- - [https://rogerdudler.github.io/git-guide/](https://rogerdudler.github.io/git-guide/)
- - [https://ohshitgit.com](https://ohshitgit.com)
- - [https://nvie.com/posts/a-successful-git-branching-model/](https://nvie.com/posts/a-successful-git-branching-model/)
+
+- [https://git-scm.com/book/en/v1/Getting-Started-Git-Basics](https://git-scm.com/book/en/v1/Getting-Started-Git-Basics)
+- [https://rogerdudler.github.io/git-guide/](https://rogerdudler.github.io/git-guide/)
+- [https://ohshitgit.com](https://ohshitgit.com)
+- [https://nvie.com/posts/a-successful-git-branching-model/](https://nvie.com/posts/a-successful-git-branching-model/)
