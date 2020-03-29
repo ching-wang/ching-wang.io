@@ -10,11 +10,11 @@ SQLite and PostgreSQL before. For my recent project
 planning to deploy it [Heroku]('https://en.wikipedia.org/wiki/Heroku'). Here are
 some notes to myself about PostgreSQL.
 
-### What is PostgreSQL?
+## What is PostgreSQL?
 
 PostgreSQL is a general-purpose object-relational database management system.
 
-### Data Types
+## Data Types
 
 The full list of Data Types can be found here
 [Data Type full list]("https://www.postgresql.org/docs/current/datatype.html").
@@ -23,7 +23,7 @@ _Serial_, _Temporal Data_, _Boolean_.
 
 Here are some examples:
 
-##### Character
+### Character
 
 PostgreSQL offers three character data types: `CHAR(n)`, `VARCHAR(n)`, and
 `TEXT`.
@@ -34,7 +34,7 @@ VARCHAR(n) - Variable-length strings
 
 TEXT - Strings of any length(unlimited length character string)
 
-#### Numeric
+### Numeric
 
 PostgreSQL supports two distinct types of numbers, `Integers` and
 `Floating-point numbers`. Each of these type has several subtypes.
@@ -62,12 +62,12 @@ real - is a 4-byte floating-point number.
 numeric or numeric(p,s): is a real number with p digits with s number after the
 decimal point. The numeric(p,s) is the exact number
 
-#### Temporal Data Types
+### Temporal Data Types
 
 Temporal data types store time-related information:
 Data, time, timestamp, interval, timestamptz
 
-#### Boolean
+### Boolean
 
 Boolean data type includes _TRUE_, _FLASE_, _NULL_. Postgres is not limited by
 storing only `true` and `false` values into boolean columns. In boolean columns
