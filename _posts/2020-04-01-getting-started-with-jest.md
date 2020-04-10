@@ -94,7 +94,7 @@ rather than trying to add them later.
 It's best to keep tests in their own separate folder rather than alongside
 implementation code. Why is that? I have read some articles about this question,
 such as
-[Organizing Tests in Jest]("https://medium.com/@JeffLombardJr/organizing-tests-in-jest-17fc431ff850").
+[Organizing Tests in Jest](<https://medium.com/@JeffLombardJr/organizing-tests-in-jest-17fc431ff850>).
 
 The consensus seems to be that it's best to keep the tests separate so that
 the application structure is easier to follow, and you don't mix up production
@@ -127,7 +127,7 @@ export const sanitiseQuery = (query) =>
     .join("+");
 ```
 
-It takes user input for a search query in my _What to Watch_ film wishlist app.
+It takes user input for a search query in my [What to Watch](<https://wattowatch.netlify.com/>) film wishlist app.
 As the function name suggests, we want to sanitise the user input and make sure
 we end up with a reasonable search query to send to the server.
 
@@ -259,4 +259,3 @@ Ran all test suites.
 
 I found it quite satisfying that I was able to find and fix an actual bug in my
 first attempt at automated testing. It seems very worthwhile.
-
