@@ -4,8 +4,6 @@ layout: post
 date: 2020-03-03
 ---
 
-_Notes to myself_
-
 I've been reviewing ruby and ruby on rails that I've learnt a few months ago. There are a few concepts that I would like to write down to refresh my knowledge of ruby.
 
 `find` and `find_by` are both ActiveRecord methods for [CRUD]("https://guides.rubyonrails.org/active_record_basics.html#crud-reading-and-writing-data"). According to Activerecord Doc, CRUD is an acronym for the four verbs we use to operate on data: Create, Read, Update and Delete. Active Record automatically creates methods to allow an application to read and manipulate data stored within its tables.

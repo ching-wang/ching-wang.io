@@ -13,18 +13,22 @@
     <main>
       <div class="container">
         <div class="post-container">
+          <p>
+            <em>Notes to myself</em>
+          </p>
+
           {{ content }}
         </div>
 
         <!-- Configure Disqus -->
         {%- if site.texture.disqus_shortname -%}
-        <div id="disqus_thread" style="margin-top:20px"></div>
+        <div id="disqus_thread" style="margin-top: 20px;"></div>
         <script>
-          var disqus_config = function() {
+          var disqus_config = function () {
             this.page.url = "{{ page.url | absolute_url }}";
             this.page.identifier = "{{ page.url | absolute_url }}";
           };
-          (function() {
+          (function () {
             var d = document,
               s = d.createElement("script");
             s.src =
