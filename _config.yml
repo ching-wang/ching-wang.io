@@ -47,7 +47,7 @@ theme: texture
 permalink: /posts/:title/
 texture:
   title: Ching Wang
-  tagline: Full Stack Developer
+  tagline: Fullstack Software Engineer
   date_format: "%b %-d, %Y"
   style: black
   showNav: true
