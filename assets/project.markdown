@@ -10,9 +10,9 @@ A film wishlist and recommender that integrates with API to help users manage an
 
 Built with: Rails, JS, React, Semantic UI, PostgreSQL, Heroku, Netlify.
 
-[Github Front End Repo]("https://github.com/ching-wang/client-what-to-watch")
+[Github Front End Repo](https://github.com/ching-wang/client-what-to-watch)
 
-[Github Back End Repo]("https://github.com/ching-wang/server-what-to-watch")
+[Github Back End Repo](https://github.com/ching-wang/server-what-to-watch)
 
 ---
 
@@ -20,9 +20,9 @@ Built with: Rails, JS, React, Semantic UI, PostgreSQL, Heroku, Netlify.
 
 Built with: HTML, CSS, SASS, Bootstrap. Used SASS mixins for responsive media queries.
 
-[Github]("https://github.com/ching-wang/chings-kitchen")
+[Github](https://github.com/ching-wang/chings-kitchen)
 
-[Demo]("https://youtu.be/j8fGVVJlzxM")
+[Demo](https://youtu.be/j8fGVVJlzxM)
 
 ---
 
