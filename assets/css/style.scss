@@ -51,7 +51,6 @@
 }
 
 {%- endif -%}
-// Textures
 .texture-black {
     background-image: url('{{ site.baseurl }}/assets/textures/black.jpg');
 
@@ -109,4 +108,8 @@
     .post-date {
         color: #ddd;
     }
+}
+
+a {
+    color: #f19483;
 }
