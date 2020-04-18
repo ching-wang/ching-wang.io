@@ -16,7 +16,7 @@ Built with: Rails, JS, React, Semantic UI, PostgreSQL, Heroku, Netlify.
 
 ---
 
-### [CHING'S KITCHEN](https://chings-kitchen.netlify.com/)
+### [CHING'S KITCHEN](http://chings-kitchen.ching-wang.io/)
 
 Built with: HTML, CSS, SASS, Bootstrap. Used SASS mixins for responsive media queries.
 
