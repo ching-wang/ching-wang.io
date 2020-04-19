@@ -20,7 +20,7 @@
 
 title: Ching Wang | Fullstack Software Engineer, London
 email: chingwang.qw@gmail.com
-description: Blog of Ching Wang, Fullstack Software Engineer based in London.
+description: Blog of Ching Wang, a Fullstack Software Engineer based in London.
   React, JavaScript, Ruby, Rails, Jest, SASS / CSS, postgreSQL.
 show_excerpts: true
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -56,6 +56,8 @@ texture:
   social_links:
     github: ching-wang
     linkedIn: ching-wang # format: locale/username
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

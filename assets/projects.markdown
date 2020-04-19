@@ -1,7 +1,7 @@
 ---
 layout: page
 title: My Projects
-permalink: /project/
+permalink: /projects/
 ---
 
 ### [WHAT TO WATCH](http://wattowatch.netlify.com/)

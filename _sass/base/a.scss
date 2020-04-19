@@ -1,0 +1,12 @@
+$linkColour: #005CAF;
+
+a {
+    color: $linkColour;
+    text-decoration: underline;
+    transition: color .5s ease;
+
+    &:hover,
+    &:link:hover {
+        color: lighten($linkColour, 23%);
+    }
+}

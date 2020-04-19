@@ -7,13 +7,29 @@
     }
 }
 
+.site-title-link {
+    @include unstyledLink(#ffffff);
+}
+
 .site-tagline {
     font-size: 1.5em;
     margin-bottom: .5em;
 
+    > .site-title-link {
+        @include unstyledLink(#888888);
+    }
+
     @include small-up {
         font-size: 2em;
     }
+}
+
+.post-site-title {
+    margin: 0 0 .8em;
+}
+
+.post-site-title-link {
+    @include unstyledLink(#888888);
 }
 
 .top-links {
@@ -27,17 +43,36 @@
 }
 
 .top-link {
+    @include unstyledLink(#ffffff);
+
     display: block;
     margin-right: .5em;
     border: 1px solid rgba(255, 255, 255, 0.6);
     color: #ffffff;
-    padding: .6em;
+    padding: .2em .6em;
     border-radius: .3em;
     transition: background .5s ease, color .5s ease;
+    text-decoration: none;
 
-    &:hover {
+    &:hover,
+    &:link:hover {
+        @include unstyledLink(#333);
         background: #ffffff;
-        color: #000000;
         border: 1px solid rgba(255, 255, 255, 0.6);
     }
+
+    &:visited {
+        color: #ffffff;
+    }
+
+    @include small-up {
+        padding: .6em .6em;
+    }
+}
+
+
+$hireMeColour: #1B813E;
+.hire-me-link {
+    background: $hireMeColour;
+    font-weight: bolder;
 }

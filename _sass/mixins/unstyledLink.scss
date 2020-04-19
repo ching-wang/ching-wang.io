@@ -1,0 +1,25 @@
+@mixin unstyledLink($baseColour) {
+	color: $baseColour;
+    text-decoration: none;
+    text-decoration-style: none;
+    text-decoration-color: transparent;
+
+    &:link,
+    &:hover,
+    &:link:hover,
+    &:visited,
+    &:link:visited,
+    &:visited:hover,
+    &:link:visited:hover {
+        color: $baseColour;
+    }
+}
+
+@mixin hoverColour($hoverColour) {
+    &:hover,
+    &:link:hover,
+    &:visited:hover,
+    &:link:visited:hover {
+        color: $hoverColour;
+    }
+}
