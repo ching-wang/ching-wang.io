@@ -18,11 +18,14 @@ Built with: Rails, JS, React, Semantic UI, PostgreSQL, Heroku, Netlify.
 
 ### [CHING'S KITCHEN](http://chings-kitchen.ching-wang.io/)
 
-Built with: HTML, CSS, SASS, Bootstrap. Used SASS mixins for responsive media queries.
+A demo site using SCSS mixins for CSS media queries to achieve a responsive
+design in a maintainable codebase, deployed to AWS EC2 behind Nginx.
+
+Built with: SCSS, Bootstrap, Flask, AWS, EC2, Nginx.
 
 [Github](https://github.com/ching-wang/chings-kitchen)
 
-[Demo](https://youtu.be/j8fGVVJlzxM)
+[Demo](https://youtu.be/cUMYWU7MLKA)
 
 ---
 
