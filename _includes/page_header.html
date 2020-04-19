@@ -1,6 +1,10 @@
 <div class="container">
-  <h1>{{ site.texture.title }}</h1>
-  <h2 class="site-tagline">{{ site.texture.tagline }}</h2>
+  <h1>
+    <a href="/" class="site-title-link">{{ site.texture.title }}</a>
+  </h1>
+  <h2 class="site-title site-tagline">
+    <a href="/" class="site-title-link">{{ site.texture.tagline }}</a>
+  </h2>
   <ul class="social">
     {%- if site.texture.social_links.github -%}
     <a href="https://github.com/ching-wang"

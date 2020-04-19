@@ -2,10 +2,12 @@
 @import "ext/normalize";
 @import "begin";
 @import "syntax";
+@import "base/body";
+@import "base/a";
 @import "mixins/breakpoints";
+@import "mixins/unstyledLink";
 @import "components/header";
 
-$linkColor: blue;
 $mobileW: 768px;
 $smallMobileW: 480px;
 $bigScreenW: 1600px;
@@ -13,29 +15,12 @@ $leftWidth: 220px;
 
 $gray: #999;
 $lightGray: #eee;
+$ink: #333;
 
 *,
 *:before,
 *:after {
   box-sizing: border-box;
-}
-
-body {
-  font-family: "Nunito Sans", sans-serif;
-  @include fluidType(16px, 19px);
-  line-height: 1.55em;
-  margin: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  color: $linkColor;
-  text-decoration: none;
-  transition: border-bottom 0.4s;
-  &:hover {
-    border-bottom: 0.5px solid $linkColor;
-  }
 }
 
 h1,
@@ -155,14 +140,13 @@ header {
   }
 }
 
+.post-link {
+  @include unstyledLink($ink);
+  @include hoverColour($linkColour);
+}
+
 .post-title {
-  color: #222;
-  transition: color 0.3s ease;
   margin: 0.1em 0;
-  &:hover {
-    color: pink;
-    border-bottom: 0;
-  }
 }
 
 .post-description {

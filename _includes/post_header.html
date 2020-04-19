@@ -1,5 +1,10 @@
 {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
 <div class="container">
+  <h3 class="post-site-title">
+    <a href="/" class="site-title-link post-site-title-link">
+      {{ site.texture.title }}
+    </a>
+  </h3>
   <h1>{{ page.title }}</h1>
   <h4 class="post-description">{{ page.description }}</h4>
   <div class="post-date" style="margin-top:20px">
