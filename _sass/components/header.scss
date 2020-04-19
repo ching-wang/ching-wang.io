@@ -1,78 +1,77 @@
 .header {
-    display: grid;
-    
-    @include small-up {
-        grid-template-columns: 50% 50%;
-        grid-template-columns: 50% 50%;
-    }
+  display: grid;
+
+  @include small-up {
+    grid-template-columns: 50% 50%;
+    grid-template-columns: 50% 50%;
+  }
 }
 
 .site-title-link {
-    @include unstyledLink(#ffffff);
+  @include unstyledLink(#ffffff);
 }
 
 .site-tagline {
-    font-size: 1.5em;
-    margin-bottom: .5em;
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
 
-    > .site-title-link {
-        @include unstyledLink(#888888);
-    }
+  > .site-title-link {
+    @include unstyledLink(#888888);
+  }
 
-    @include small-up {
-        font-size: 2em;
-    }
+  @include small-up {
+    font-size: 1.8em;
+  }
 }
 
 .post-site-title {
-    margin: 0 0 .8em;
+  margin: 0 0 0.8em;
 }
 
 .post-site-title-link {
-    @include unstyledLink(#888888);
+  @include unstyledLink(#888888);
 }
 
 .top-links {
-    list-style-type: none;
-    margin: 0 1em;
-    padding: 0;
+  list-style-type: none;
+  margin: 0 1em;
+  padding: 0;
 }
 
 .top-link-item {
-    display: inline-block;
+  display: inline-block;
 }
 
 .top-link {
-    @include unstyledLink(#ffffff);
+  @include unstyledLink(#ffffff);
 
-    display: block;
-    margin-right: .5em;
+  display: block;
+  margin-right: 0.5em;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  color: #ffffff;
+  padding: 0.2em 0.6em;
+  border-radius: 0.3em;
+  transition: background 0.5s ease, color 0.5s ease;
+  text-decoration: none;
+
+  &:hover,
+  &:link:hover {
+    @include unstyledLink(#333);
+    background: #ffffff;
     border: 1px solid rgba(255, 255, 255, 0.6);
+  }
+
+  &:visited {
     color: #ffffff;
-    padding: .2em .6em;
-    border-radius: .3em;
-    transition: background .5s ease, color .5s ease;
-    text-decoration: none;
+  }
 
-    &:hover,
-    &:link:hover {
-        @include unstyledLink(#333);
-        background: #ffffff;
-        border: 1px solid rgba(255, 255, 255, 0.6);
-    }
-
-    &:visited {
-        color: #ffffff;
-    }
-
-    @include small-up {
-        padding: .6em .6em;
-    }
+  @include small-up {
+    padding: 0.6em 0.6em;
+  }
 }
 
-
-$hireMeColour: #1B813E;
+$hireMeColour: #1b813e;
 .hire-me-link {
-    background: $hireMeColour;
-    font-weight: bolder;
+  background: $hireMeColour;
+  font-weight: bolder;
 }
