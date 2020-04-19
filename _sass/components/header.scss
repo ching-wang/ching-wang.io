@@ -1,0 +1,43 @@
+.header {
+    display: grid;
+    
+    @include small-up {
+        grid-template-columns: 50% 50%;
+        grid-template-columns: 50% 50%;
+    }
+}
+
+.site-tagline {
+    font-size: 1.5em;
+    margin-bottom: .5em;
+
+    @include small-up {
+        font-size: 2em;
+    }
+}
+
+.top-links {
+    list-style-type: none;
+    margin: 0 1em;
+    padding: 0;
+}
+
+.top-link-item {
+    display: inline-block;
+}
+
+.top-link {
+    display: block;
+    margin-right: .5em;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    color: #ffffff;
+    padding: .6em;
+    border-radius: .3em;
+    transition: background .5s ease, color .5s ease;
+
+    &:hover {
+        background: #ffffff;
+        color: #000000;
+        border: 1px solid rgba(255, 255, 255, 0.6);
+    }
+}
