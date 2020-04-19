@@ -2,6 +2,8 @@
 @import "ext/normalize";
 @import "begin";
 @import "syntax";
+@import "mixins/breakpoints";
+@import "components/header";
 
 $linkColor: blue;
 $mobileW: 768px;
@@ -224,34 +226,5 @@ header {
 .post-container {
   img {
     margin: 20px 0;
-  }
-}
-
-.navbar {
-  position: absolute;
-  top: 0;
-  right: 5vw;
-  a {
-    color: inherit;
-  }
-  ul {
-    list-style-type: none;
-    li {
-      // background-color: #ff9f1c;
-      border: 1px solid #fff;
-      float: left;
-      // margin: 5px;
-      &:not(:first-child) {
-        border-left: 0;
-      }
-      padding: 10px 25px;
-      // border-radius: 4px;
-      @include fluidType(15px, 17px);
-      transition: background-color 0.3s ease-in;
-      &:hover {
-        background-color: rgba(#fff, 0.15);
-        cursor: pointer;
-      }
-    }
   }
 }
