@@ -6,7 +6,7 @@ permalink: /hire-me/
 
 # Hire me
 
-I am available to start immediately as a _Junior Fullstack Software Engineer_.
+I am available to start immediately as a _Junior Fullstack Software Engineer_ in London.
 I'm a self-starter, with energy, enthusiasm and passion for problem solving and
 learning new things. I can bring a breadth of business experience and pragmatism
 from my previous roles in the sourcing and shipping industry.
@@ -36,16 +36,16 @@ deployment on AWS.
 
 ## Key technologies
 
- - React
- - JavaScript & TypeScript
- - CSS & SCSS
- - Ruby & Ruby on Rails
- - Python & Flask
- - SQL & PostgreSQL
- - AWS
- - Nginx
- - Linux
- - Bash
+- React
+- JavaScript & TypeScript
+- CSS & SCSS
+- Ruby & Ruby on Rails
+- Python & Flask
+- SQL & PostgreSQL
+- AWS
+- Nginx
+- Linux
+- Bash
 
 ## Technical projects
 
@@ -63,7 +63,7 @@ Some examples:
 A web app film wishlist and recommender that integrates with multiple APIs to
 help users find and manage films they want to watch.
 
-__Built with:__ Rails, JS, React, Semantic UI, PostgreSQL, Heroku, Netlify
+**Built with:** Rails, JS, React, Semantic UI, PostgreSQL, Heroku, Netlify
 
 ### WordSnap
 
@@ -74,7 +74,7 @@ __Built with:__ Rails, JS, React, Semantic UI, PostgreSQL, Heroku, Netlify
 An interactive vocabulary learning game using Rails, JavaScript and CSS. Users
 flip cards in pairs to memorise vocabulary.
 
-__Built with:__ Rails, JavaScript, Bootstrap, PostgreSQL, Heroku, Netlify
+**Built with:** Rails, JavaScript, Bootstrap, PostgreSQL, Heroku, Netlify
 
 ### Ching's Kitchen
 
@@ -85,7 +85,7 @@ __Built with:__ Rails, JavaScript, Bootstrap, PostgreSQL, Heroku, Netlify
 A demo site using SCSS mixins for CSS media queries to achieve a responsive
 design in a maintainable codebase, deployed to AWS EC2 behind Nginx.
 
-__Built with:__ SCSS, Bootstrap, Flask, AWS, EC2, Nginx
+**Built with:** SCSS, Bootstrap, Flask, AWS, EC2, Nginx
 
 ## Previous business experience
 
