@@ -24,9 +24,6 @@ description: Blog of Ching Wang, a Fullstack Software Engineer based in London.
   React, JavaScript, Ruby, Rails, Jest, SASS / CSS, postgreSQL.
 show_excerpts: true
 baseurl: "" # the subpath of your site, e.g. /blog
-# url: "https://ching-wang.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: QingChingwang
-# github_username: ching-wang
 
 sass:
   sass_dir: _sass
@@ -56,9 +53,7 @@ texture:
   social_links:
     github: ching-wang
     linkedIn: ching-wang # format: locale/username
-
-
-
+    twitter: ching_wang_io
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
