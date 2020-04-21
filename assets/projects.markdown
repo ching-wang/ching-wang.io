@@ -2,6 +2,10 @@
 layout: page
 title: My Projects
 permalink: /projects/
+summary: A range of projects
+author: Ching Wang
+image: "/assets/img/what-to-watch.png"
+description: "   "
 ---
 
 ### [WHAT TO WATCH](http://wattowatch.netlify.com/)

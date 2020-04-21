@@ -18,12 +18,18 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Ching Wang | Fullstack Software Engineer, London
-email: chingwang.qw@gmail.com
+title: Ching Wang
+tagline: Junior Fullstack Software Engineer
 description: Blog of Ching Wang, a Fullstack Software Engineer based in London.
-  React, JavaScript, Ruby, Rails, Jest, SASS / CSS, postgreSQL.
+  React, JavaScript, Ruby, Rails, Python, Flask, Jest, SASS / CSS, postgreSQL.
+url: https://www.ching-wang.io/
+Author: Ching Wang
+image: "https://avatars3.githubusercontent.com/u/16280680?s=400&u=ed9f1f681a58778ddce479b9b059d03c057b9019&v=4"
+lang: en_GB
+twitter:
+  username: ching_wang_io
+  card: summary
 show_excerpts: true
-baseurl: "" # the subpath of your site, e.g. /blog
 
 sass:
   sass_dir: _sass

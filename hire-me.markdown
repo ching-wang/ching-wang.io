@@ -1,7 +1,14 @@
 ---
 layout: page
-title: Hire me
+title: Hire me \| Junior Fullstack Software Engineer, London
+description: >
+  "I am available to start immediately as a Junior Fullstack Software Engineer in London. I’m a self-starter, with energy, enthusiasm and passion for problem solving and learning new things. I can bring a breadth of business experience and pragmatism from my previous roles in the sourcing and shipping industry.
+  You can reach me at ching@ching-wang.io, and I’d love to hear from you."
 permalink: /hire-me/
+summary: summary demo for hire me page
+author: Ching Wang
+image: "https://images.unsplash.com/photo-1544980919-e17526d4ed0a"
+image: ""
 ---
 
 # Hire me
