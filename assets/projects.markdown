@@ -1,11 +1,10 @@
 ---
 layout: page
 title: My Projects
-permalink: /projects/
-summary: A range of projects
+permalink: projects/
 author: Ching Wang
 image: "/assets/img/what-to-watch.png"
-description: "   "
+description: "A list of my software engineering projects, built with technologies including JavaScript, React, Python, Flask, Ruby on Rails, postgreSQL and AWS."
 ---
 
 ### [WHAT TO WATCH](http://wattowatch.netlify.com/)
