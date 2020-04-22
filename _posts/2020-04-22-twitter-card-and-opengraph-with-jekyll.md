@@ -41,7 +41,7 @@ plugins:
 Add the following before `</head>` in the appropriate layout template file:
 
 ```html
-{% seo %}
+{% raw %}{% seo %} {% endraw %}
 ```
 
 I included it in my `head.html` file like this:
@@ -56,8 +56,7 @@ I included it in my `head.html` file like this:
 />
 <link rel="stylesheet" href="/assets/css/style.css" />
 <link rel="icon" href="/assets/favicon.png" type="image/png" />
-
-{% seo %}
+{% raw %} {% seo %} {% endraw %}
 ```
 
 ### Step 2 - Define variables in `_config.yml`
@@ -113,8 +112,7 @@ description: "A list of my software engineering projects, built with technologie
 layout: page
 title: Hire me \| Junior Fullstack Software Engineer, London
 description: >
-"I am available to start immediately as a Junior Fullstack Software Engineer in London. I’m a self-starter, with energy, enthusiasm and passion for problem solving and learning new things. I can bring a breadth of business experience and pragmatism from my previous roles in the sourcing and shipping industry.
-You can reach me at ching@ching-wang.io, and I’d love to hear from you."
+  "I am available to start immediately as a Junior Fullstack Software Engineer in London. I’m a self-starter, with energy, enthusiasm and passion for problem solving and learning new things. I can bring a breadth of business experience and pragmatism from my previous roles in the sourcing and shipping industry."
 permalink: hire-me/
 author: Ching Wang
 image: "https://images.unsplash.com/photo-1544980919-e17526d4ed0a"
@@ -165,24 +163,39 @@ Now you update `head.html` with the variables that we just defined in
 E.g. in `_includes/head.html`:
 
 ```html
-<meta name="twitter:site" content="@{{ site.twitter_username }}" />
-<meta name="twitter:creator" content="@{{ page.author }}" />
-<meta name="twitter:title" content="{{ page.title }}" />
-<meta name="twitter:description" content="{{ page.description }}" />
-<meta name="twitter:image" content="{{ page.image}}" />
+<meta
+  name="twitter:site"
+  content="@{% raw %}{{site.twitter_username }}{% endraw %}"
+/>
+<meta
+  name="twitter:creator"
+  content="@{% raw %}{{ page.author }}{% endraw %}"
+/>
+<meta name="twitter:title" content="{% raw %}{{ page.title }} {% endraw %}" />
+<meta
+  name="twitter:description"
+  content="{% raw %} {{ page.description }} {% endraw %}"
+/>
+<meta name="twitter:image" content="{% raw %}{{ page.image}} {% endraw %}" />
 
 {% if page.summary %}
 
-<meta name="twitter:description" content="{{ page.summary }}" />
+<meta
+  name="twitter:description"
+  content="{% raw %}{{ page.summary }}{% endraw %}"
+/>
 {% else %}
-<meta name="twitter:description" content="{{ site.description }}" />
+<meta
+  name="twitter:description"
+  content="{% raw %}{{ site.description }}{% endraw %}"
+/>
 {% endif %} {% if page.image %}
 
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:image" content="{{ site.baseurl }}{{ page.image }}" />
 {% else %}
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:image" content="{{ site.image }}" />
+<meta name="twitter:image" content="{% raw %} {{ site.image }}{% endraw %}" />
 {% endif %}
 ```
 
