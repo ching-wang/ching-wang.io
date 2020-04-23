@@ -191,11 +191,14 @@ E.g. in `_includes/head.html`:
 />
 {% raw %}{% endif %} {% if page.image %}{% endraw %}
 
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="{{ site.baseurl }}{{ page.image }}" />
+<meta name="twitter:card" content="{% raw %}summary_large_image{% endraw %}" />
+<meta
+  name="twitter:image"
+  content="{% raw %}{{ site.baseurl }}{{ page.image }}{% endraw %}"
+/>
 {% raw %}{% else %}{% endraw %}
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:image" content="{% raw %} {{ site.image }}{% endraw %}" />
+<meta name="twitter:image" content="{% raw %}{{ site.image }}{% endraw %}" />
 {% raw %}{% endif %}{% endraw %}
 ```
 
