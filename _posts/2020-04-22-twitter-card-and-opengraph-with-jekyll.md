@@ -178,25 +178,25 @@ E.g. in `_includes/head.html`:
 />
 <meta name="twitter:image" content="{% raw %}{{ page.image}} {% endraw %}" />
 
-{% if page.summary %}
+{% raw %} {% if page.summary %}{% endraw %}
 
 <meta
   name="twitter:description"
   content="{% raw %}{{ page.summary }}{% endraw %}"
 />
-{% else %}
+{% raw %} {% else %}{% endraw %}
 <meta
   name="twitter:description"
   content="{% raw %}{{ site.description }}{% endraw %}"
 />
-{% endif %} {% if page.image %}
+{% raw %}{% endif %} {% if page.image %}{% endraw %}
 
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:image" content="{{ site.baseurl }}{{ page.image }}" />
-{% else %}
+{% raw %}{% else %}{% endraw %}
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:image" content="{% raw %} {{ site.image }}{% endraw %}" />
-{% endif %}
+{% raw %}{% endif %}{% endraw %}
 ```
 
 You can find more information on
