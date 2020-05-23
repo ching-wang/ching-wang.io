@@ -2,7 +2,7 @@
 title: Make your Site Responsive with SASS Mixins
 layout: post
 date: 2020-04-19
-image: ""
+image: "assets/img/responsive.jpg"
 ---
 
 I've been working on my demo project [Ching's Kitchen]("http://chings-kitchen.ching-wang.io/") for an online course from Edx CS50. One of the requirements for this project is that it has a responsive design. I used CSS media queries and Sass Mixins, and I would like to share some thoughts and things I've learnt from working on this project.
