@@ -1,5 +1,5 @@
 ---
-title: Make your Site Responsive with SASS Mixins
+title: Using SASS Mixins for Responsive Design
 layout: post
 date: 2020-04-19
 image: "assets/img/responsive.jpg"
