@@ -1,5 +1,5 @@
 ---
-title: Using SASS Mixins for Responsive Design
+title: Using SASS Mixins for Responsive Web Design
 layout: post
 date: 2020-04-19
 image: "assets/img/responsive.jpg"
