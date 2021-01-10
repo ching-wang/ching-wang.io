@@ -2,7 +2,10 @@
 layout: page
 title: About me \| Junior Fullstack Software Developer, London
 description: >
-  "I am available to start immediately as a Junior Fullstack Software Engineer in London. I’m a self-starter, with energy, enthusiasm and passion for problem solving and learning new things. I can bring a breadth of business experience and pragmatism from my previous roles in the sourcing and shipping industry.
+  "I am available to start immediately as a Junior Fullstack Software Engineer in London.
+   I’m a self-starter, with energy, enthusiasm and passion for problem solving and learning
+    new things. I can bring a breadth of business experience and pragmatism from my previous 
+    roles in the sourcing and shipping industry.
   You can reach me at ching@ching-wang.io, and I’d love to hear from you."
 permalink: hire-me/
 author: Ching Wang
